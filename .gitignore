@@ -1,0 +1,5 @@
+*.*~
+*.ibc
+*.vim
+bower_components
+libs
