@@ -1,0 +1,17 @@
+package idris_node_fs
+
+brief = "Node.js FileSystem module wrapper for idris"
+version = 0.1.0
+readme = ./README.md
+license = "MIT"
+author = "Risto Stevcev"
+maintainer = "Risto Stevcev"
+homepage = https://github.com/Risto-Stevcev/idris-node-fs
+sourceloc = https://github.com/Risto-Stevcev/idris-node-fs
+bugtracker = https://github.com/Risto-Stevcev/idris-node-fs/issues
+
+modules = Node.Async.FileSystem
+        , Node.Sync.FileSystem
+        , Node.Free.FileSystem
+
+pkgs = idris_async, idris_jserror, idris_free

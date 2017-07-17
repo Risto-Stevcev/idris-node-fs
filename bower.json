@@ -1,0 +1,29 @@
+{
+  "name": "idris-node-fs",
+  "authors": [
+    "Risto Stevcev <risto1@gmail.com>"
+  ],
+  "description": "Node.js FileSystem module wrapper for idris",
+  "main": "",
+  "keywords": [
+    "idris",
+    "node",
+    "nodejs",
+    "filesystem",
+    "fs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Risto-Stevcev/idris-node-fs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "idris-async": "^0.2.0",
+    "idris-free": "https://github.com/idris-hackers/idris-free.git",
+    "idris-assert": "^0.1.0"
+  }
+}
