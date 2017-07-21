@@ -24,6 +24,6 @@
   "dependencies": {
     "idris-async": "^0.3.0",
     "idris-free": "https://github.com/idris-hackers/idris-free.git",
-    "idris-assert": "^0.1.0"
+    "idris-assert": "^0.2.0"
   }
 }

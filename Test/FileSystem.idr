@@ -26,11 +26,8 @@ namespace Main
   export
   main : JS_IO ()
   main = do
-    foldFree interpret exclaimHello
-    foldFree interpret copyHello
-
-    {-
     runAsync $ do
+      foldFree interpret exclaimHello
+      foldFree interpret copyHello
       c <- foldFree interpret (readFile "bar.txt")
       consoleLog c
-    -}
